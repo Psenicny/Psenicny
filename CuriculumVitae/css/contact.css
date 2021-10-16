@@ -1,0 +1,63 @@
+
+/* 
+    Created on : 16. 10. 2021, 19:35:46
+    Author     : jindr
+*/
+
+
+/* 
+    Created on : 16. 10. 2021, 15:06:14
+    Author     : jindr
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ccccff;
+  border: 1px solid #ccccff;
+  border-radius: 6px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* vzhled samostatného okna */
+.okno {
+  max-width: 980px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+/* patička */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
